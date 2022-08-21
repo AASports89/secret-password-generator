@@ -1,17 +1,20 @@
-# JavaScript: Password Generator
+# JavaScript: SecRet PassWord GeneRator
 
-## Brief App Description
+## Application's Brief Description
 
-This application is a simple password generator using HTML, CSS, and javascript coding. Throughout this application there is consistent application of semantic organization and functionality application using javascript.
-The application's main feature is a secretive generation process with the option of utilizing the "checkbox" to reveal the newly generated random password.
+The SecRet PassWord GeneRator is an easy to use application designed to generate random passwords using a variety of characters from letters, numbers, and special characters with a possible length of 8-128 characters!
+The application features prompted messages where the user is informed of:
 
-A reference source for accepted characters in the password generation function is shown below:
+* Password length
+* Use of specific characters
+* Any potential error flags
 
-* [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
-Additionally below there is a defind 'Acceptance Criteria' for an acceptable password generator application:
+Overall, it is a user friendly application with mobile app capabilities built from HTML, CSS, and JavaScript codes.
 
-```
+Below is the acceptance criteria designated to ensure all quality and technical standards are met:
+
 
 ## Acceptance Criteria
 
@@ -35,27 +38,42 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+* The following gif and images shows the web application's appearance and functionality capabilities:
 
-<img src="./develop/images/passgen.gif">
+![The following GIF will demonstrate a quick run through of the application's general functionality".](./assets/images/passgen.gif)
 
-Please find the webiste URL below:
+![The Password Generator application displays a button to "Generate Password".](./assets/images/passgen.jpg)
 
-https://aasports89.github.io/secret-password-generator/
+![The Password Generator application displays prompted alerts to ensure the user is informed every step of the way.](./assets/images/passgen-1.jpg)
 
-## Grading Requirements
+![The overall format and scheme is extremely user friendly and intuitive".](./assets/images/passgen-2.jpg)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+### Hidden Password
 
-This Challenge is graded based on the following criteria: 
+![The Password Generator application hides the generated password for extra security.](./assets/images/passgen-4.jpg)
+
+### Password Revealed
+
+![The Password Generator application reveals the generated password via a functional "checked box" feature.](./assets/images/passgen-5.jpg)
+
+### Mobile Capability
+
+![The Password Generator application will adjust based on the size of the viewing device being utilized.](./assets/images/passgen-6.jpg)
+
+![The Password Generator application will adjust based on the size of the viewing device being utilized.](./assets/images/passgen-7.jpg)
+
+## GitHUB Repository URL
+
+https://github.com/AASports89/secret-password-generator
+
+## Deployed Webpage URL
+
+
+
+## Evaluation Requirements
+
+
+The application is evaluated based on the following criteria: 
 
 ### Technical Acceptance Criteria: 40%
 
@@ -90,14 +108,3 @@ This Challenge is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
