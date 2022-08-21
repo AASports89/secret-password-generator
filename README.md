@@ -1,17 +1,16 @@
-# 03 JavaScript: Password Generator
+# JavaScript: Password Generator
 
-## Your Task
+## Brief App Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application is a simple password generator using HTML, CSS, and javascript coding. Throughout this application there is consistent application of semantic organization and functionality application using javascript.
+The application's main feature is a secretive generation process with the option of utilizing the "checkbox" to reveal the newly generated random password.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+A reference source for accepted characters in the password generation function is shown below:
 
-## User Story
+* [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+Additionally below there is a defind 'Acceptance Criteria' for an acceptable password generator application:
+
 ```
 
 ## Acceptance Criteria
@@ -38,7 +37,11 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+<img src="./develop/images/passgen.gif">
+
+Please find the webiste URL below:
+
+https://aasports89.github.io/secret-password-generator/
 
 ## Grading Requirements
 
